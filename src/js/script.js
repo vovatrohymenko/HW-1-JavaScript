@@ -12,15 +12,16 @@ console.log(isStudent);
 const mySting = "Хто не знає свого минулого, той не вартий майбутнього.";
 console.log(mySting);
 // №5
-const myNumber = 28;
-const sumNumber = myNumber + 10;
-console.log(sumNumber);
+let myNumber = 28;
+myNumber = myNumber + 10;
+
+console.log(myNumber);
 // №6
 const myNull = null;
 console.log(myNull);
 // №7
 const userName = prompt("Введіть своє ім’я");
-alert(userName);
+alert("Привіт, " + userName);
 console.log(typeof userName);
 // №8
 const userAnswer = confirm("Ви дійсно хочете покинути сторінку?");
